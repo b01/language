@@ -1,0 +1,23 @@
+{
+    "name": "kshabazz/language",
+    "description": "Library to aid language based text replacement in a project.",
+    "require-dev": {
+        "phpunit/phpunit": ">=4.1"
+    },
+    "authors": [
+        {
+            "name": "Khalifah Shabazz",
+            "email": "shabazzk@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kshabazz\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kshabazz\\Tests\\": "tests/"
+        }
+    }
+}
